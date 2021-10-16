@@ -1,0 +1,76 @@
+.col-4 {
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  text-align: center;
+  background-color: rgb(167, 106, 224);
+  color: rgb(93, 128, 88);
+  margin-bottom: 10px;
+  font-family: cursive;
+  margin-left: 2%;
+}
+.col {
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  text-align: right;
+  background-color: blue;
+  color: fuchsia;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  background-color: cyan;
+  color: darkgreen;
+}
+body {
+  background-color: brown;
+}
+
+#chicky {
+  background-color: cornsilk;
+}
+
+#beefy {
+  background-color: cornsilk;
+}
+
+#sushiy {
+  background-color: cornsilk;
+}
+
+@media only screen and (min-width: 992px) {
+  #boarderchicken {
+    width: 31%;
+  }
+  #boarderbeef {
+    width: 31%;
+  }
+  #boardersushi {
+    width: 31%;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  #boarderchicken {
+    width: 48%;
+  }
+  #boarderbeef {
+    width: 48%;
+  }
+  #boardersushi {
+    width: 98%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #boarderchicken {
+    width: 98%;
+  }
+  #boarderbeef {
+    width: 98%;
+  }
+  #boardersushi {
+    width: 98%;
+  }
+}
