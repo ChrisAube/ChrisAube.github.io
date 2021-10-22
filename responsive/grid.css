@@ -40,37 +40,37 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-  #boarderchicken {
+  #borderchicken {
     width: 31%;
   }
-  #boarderbeef {
+  #borderbeef {
     width: 31%;
   }
-  #boardersushi {
+  #bordersushi {
     width: 31%;
   }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px) {
-  #boarderchicken {
+  #borderchicken {
     width: 48%;
   }
-  #boarderbeef {
+  #borderbeef {
     width: 48%;
   }
-  #boardersushi {
+  #bordersushi {
     width: 98%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  #boarderchicken {
+  #borderchicken {
     width: 98%;
   }
-  #boarderbeef {
+  #borderbeef {
     width: 98%;
   }
-  #boardersushi {
+  #bordersushi {
     width: 98%;
   }
 }
